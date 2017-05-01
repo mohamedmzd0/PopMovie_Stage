@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else if (item.getItemId()==R.id.favourite)
         {
-            Cursor c = getContentResolver().query(Uri.parse("content://movie.data/table"), null, null, null, "");
+            Cursor c = getContentResolver().query(Uri.parse(R.string.provider_uri), null, null, null, "");
                 arrayList.clear();
             if (c.moveToFirst()) {
                 do{
