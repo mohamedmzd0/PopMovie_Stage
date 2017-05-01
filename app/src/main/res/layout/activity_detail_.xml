@@ -25,8 +25,8 @@
                 android:layout_height="match_parent">
                 <ImageView
                     android:id="@+id/image_poster"
-                    android:layout_width="150dp"
-                    android:layout_height="200dp" />
+                    android:layout_width="@dimen/columwidth"
+                    android:layout_height="@dimen/columhight" />
                 <TextView
                     android:id="@+id/date_and_vote"
                     android:textAlignment="center"
