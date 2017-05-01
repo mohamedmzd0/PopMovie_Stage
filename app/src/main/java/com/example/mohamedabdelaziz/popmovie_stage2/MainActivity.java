@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onPreExecute() {
             arrayList.clear();
             try {
-                url=new URL("https://api.themoviedb.org/3/movie/"+view_as+"?api_key=832f13a97b5d2df50ecf0dbc8a0f46ae");
+                url=new URL("https://api.themoviedb.org/3/movie/"+view_as+"?api_key=");
 
             } catch (MalformedURLException e) {
                 e.printStackTrace();
