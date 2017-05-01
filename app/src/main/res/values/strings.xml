@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">PopMovie_Stage2</string>
+        <string name="provider_uri">content://movie.data/table</string>
+
     <string-array name="view_list">
         <item>Popular</item>
         <item>Top Rated</item>
