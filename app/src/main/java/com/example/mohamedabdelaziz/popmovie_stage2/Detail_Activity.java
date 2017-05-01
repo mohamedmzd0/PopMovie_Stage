@@ -79,7 +79,7 @@ public class Detail_Activity extends AppCompatActivity {
                 values.put(contract_class.vote_average,vote_average);
                 values.put(contract_class.plot_synopsis,plot_synopsis);
                 values.put(contract_class.release_date,release_date);
-                Uri uri = getContentResolver().insert(Uri.parse("content://movie.data/table"),values);
+                Uri uri = getContentResolver().insert(Uri.parse(R.string.provider_uri),values);
                 is_favourite();
             }
         });
